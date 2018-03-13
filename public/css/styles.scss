@@ -1,5 +1,100 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .container {
-    background: yellow;
-    margin: 6rem;
-  }
+  display: flex;
+  flex-direction: column;
   
+  .jumbotron {
+    display: flex;
+    background: url(../images/hero-bg.jpg) no-repeat center fixed;
+    background-size: cover;
+    flex-flow: column wrap;
+    width: 100%;
+    padding-bottom: 11rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    .navbar {
+      margin: 3rem 30rem 3rem auto;
+
+      img {
+        width: 3rem;
+      }
+    }
+
+    .jumbotron-container {
+      width: 35rem;
+      margin: 5rem 30rem 0rem auto;
+      display: flex;
+      flex-direction: column;
+  
+      .intro {
+        width: 100%;
+        position: relative;
+        color: white;
+  
+        .greetings {
+          font-size: 6rem;
+          font-weight: lighter;
+          margin-bottom: 6rem;
+        }
+
+        .name {
+          font-size: 5rem;
+          font-weight: bold;
+          margin-bottom: 4.5rem;
+        }
+
+        .job-description {
+          font-size: 1.7rem;
+          font-weight: 100;
+        }
+      }
+
+      .links {
+        width: 27.7rem;
+        margin-top: 4rem;
+
+        .know-more-btn {
+          width: 20rem;
+          border-radius: 4rem;
+          height: 5rem;
+          margin-bottom: 2rem;
+          background-color: #37a7ff;
+          font-size: 1.5rem;
+          font-weight: lighter;
+          color: white;
+          box-shadow: 0.5rem 0.9rem 25rem 1rem #0e0e0e;
+        }
+
+        .social-accounts {
+          width: 21rem;
+          color: #dbc1f2;
+          font-size: 1.5rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          .join-me-note {
+            margin-right: 1rem;
+          }
+
+          .account-links {
+            
+          }
+        }
+      }
+    }
+  }
+
+  .content-container {
+    background-color: #f2f2f2;
+
+    .portfolio {
+      margin: -4rem 30rem 0rem 30rem;
+      background: white;
+    }
+  }
+}

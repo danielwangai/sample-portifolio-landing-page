@@ -1,3 +1,66 @@
+body {
+  font-family: 'Montserrat', sans-serif; }
+
 .container {
-  background: yellow;
-  margin: 6rem; }
+  display: flex;
+  flex-direction: column; }
+  .container .jumbotron {
+    display: flex;
+    background: url(../images/hero-bg.jpg) no-repeat center fixed;
+    background-size: cover;
+    flex-flow: column wrap;
+    width: 100%;
+    padding-bottom: 11rem;
+    margin-left: auto;
+    margin-right: auto; }
+    .container .jumbotron .navbar {
+      margin: 3rem 30rem 3rem auto; }
+      .container .jumbotron .navbar img {
+        width: 3rem; }
+    .container .jumbotron .jumbotron-container {
+      width: 35rem;
+      margin: 5rem 30rem 0rem auto;
+      display: flex;
+      flex-direction: column; }
+      .container .jumbotron .jumbotron-container .intro {
+        width: 100%;
+        position: relative;
+        color: white; }
+        .container .jumbotron .jumbotron-container .intro .greetings {
+          font-size: 6rem;
+          font-weight: lighter;
+          margin-bottom: 6rem; }
+        .container .jumbotron .jumbotron-container .intro .name {
+          font-size: 5rem;
+          font-weight: bold;
+          margin-bottom: 4.5rem; }
+        .container .jumbotron .jumbotron-container .intro .job-description {
+          font-size: 1.7rem;
+          font-weight: 100; }
+      .container .jumbotron .jumbotron-container .links {
+        width: 27.7rem;
+        margin-top: 4rem; }
+        .container .jumbotron .jumbotron-container .links .know-more-btn {
+          width: 20rem;
+          border-radius: 4rem;
+          height: 5rem;
+          margin-bottom: 2rem;
+          background-color: #37a7ff;
+          font-size: 1.5rem;
+          font-weight: lighter;
+          color: white;
+          box-shadow: 0.5rem 0.9rem 25rem 1rem #0e0e0e; }
+        .container .jumbotron .jumbotron-container .links .social-accounts {
+          width: 21rem;
+          color: #dbc1f2;
+          font-size: 1.5rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between; }
+          .container .jumbotron .jumbotron-container .links .social-accounts .join-me-note {
+            margin-right: 1rem; }
+  .container .content-container {
+    background-color: #f2f2f2; }
+    .container .content-container .portfolio {
+      margin: -4rem 30rem 0rem 30rem;
+      background: white; }
